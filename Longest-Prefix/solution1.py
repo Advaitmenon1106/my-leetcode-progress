@@ -1,5 +1,5 @@
 
-def longestCommonPrefix(self, strs: List[str]) -> str:
+def longestCommonPrefix(strs: List[str]) -> str:
     pref = ''
     if len(strs) == 0:
         return ''
